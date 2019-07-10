@@ -1,3 +1,6 @@
+
+
+
 body {
     
     background-color: black;
@@ -44,6 +47,52 @@ h2{
 }
 
 
+/*.linksleft{
+    
+ 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    color: white;
+    background-color:black;
+    font-family:Brawler;font-size:2.5vw;
+    text-align: left;
+   
+   
+   
+}
+
+.linksright{
+    
+ 
+    font-weight: bold;
+    letter-spacing: 1px; 
+    color: white;
+    background-color:black;
+    font-family:Brawler;font-size:2.5vw;
+    text-align: right;
+   
+    
+   
+   
+}*/
+
+
+
+h3{
+    font-family:Garamond;font-size:2.4vw;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    color: #edd6b3;
+    background-color:black;    
+    padding-left: 250px;
+  
+    
+   
+}
+
+
+
+
 
 
 
@@ -62,6 +111,19 @@ a{
 
 }
 /*--------------------------------- links *----------------------0--------------*/
+
+/*--------------------------------- imgaes *------------------------------------*/
+
+.homeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+
+
+/*--------------------------------- imgaes *---------------------0---------------*/
 
 
 /*--------------------------------- header *------------------------------------*/
@@ -142,10 +204,62 @@ ul.topnav li.right {float: right;}
 }
 
 
+/* Vertical Navigation */
+
+
+
+
+
 /*--------------------------------- navigation *------------------0------------------*/
 
+.keepleft{
+    max-width: 30px;
+    
+    
+}
 
 
+navcontainer ul
+{
+margin: 10px;
+padding: 10px;
+list-style-type: none;
+}
+
+#navcontainer a
+{
+font-family: Amiri; 
+font-size:1.5vw;
+display: inline-block;
+color: #FFF;
+background-color: #000000;
+width: 7em;
+padding: 3px 12px 3px 8px;
+text-decoration:none;
+border-bottom: 1px solid #fff;
+font-weight: bold;
+}
+
+#navcontainer a:hover
+{
+background-color: #edd6b3;
+color: #FFF;
+}
+
+#navcontainer li li a
+{
+
+font-family: Amiri;
+font-size:1.5vw;
+display: inline-block;
+color: #FFF;
+background-color: black;
+
+padding: 3px 3px 3px 17px;
+text-decoration: none;
+border-bottom: 0px solid #fff;
+font-weight: normal;
+}
 /*--------------------------------- hr element *------------------------------------*/
 
 
@@ -165,9 +279,19 @@ hr.line {
 main{
     
     background-color:black;
-    padding: 20px;
+    padding: 60px;
     overflow: auto;
 }
+
+
+mainv{
+    
+    background-color:black;
+    padding: 0px;
+    overflow: auto;
+}
+
+
 
 p{
    
@@ -183,11 +307,8 @@ p{
     text-align: center;
     background-color: #edd6b3;
     border-radius:25px;
-    
-   
-
-   
-    
+  
+        
 }
 
 /*--------------------------------- main *-----------------0-------------------*/
