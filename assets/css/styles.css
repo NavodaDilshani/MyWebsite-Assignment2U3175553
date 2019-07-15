@@ -38,9 +38,24 @@ h2{
     font-weight: bold;
     padding: 50px 0px;
     letter-spacing: 1px; 
-    color: white;
+    color: #edd6b3;
     background-color:black;
-    font-family:Brawler;font-size:2.5vw;
+    font-family:Brawler;font-size:3.5vw;
+    text-align: center;
+   
+   
+}
+
+
+.subhg{
+    
+ 
+    font-weight: bold;
+    padding: 50px 0px;
+    letter-spacing: 1px; 
+    color: #edd6b3;
+    background-color:black;
+    font-family:Brawler;font-size:3.5vw;
     text-align: center;
    
    
@@ -90,9 +105,33 @@ h3{
     
    
 }
+#intro{
+  
+    font-family:Garamond;font-size:2.4vw;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    letter-spacing: 1px; 
+    color: #edd6b3;
+    background-color:black;    
+    text-align: center;
+}
 
 
-.about{
+
+#statement{
+  
+    font-family:Garamond;font-size:2.4vw;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 6%;
+    letter-spacing: 1px; 
+    color: #edd6b3;
+    background-color:black;    
+    text-align: center;
+}
+
+#about{
     
     font-family:Garamond;font-size:2.4vw;
     font-weight: bold;
@@ -106,7 +145,7 @@ h3{
    
 }
 
-.design{
+#design{
        
     margin-top: 3%;
     margin-bottom: 2%;
@@ -121,7 +160,7 @@ h3{
 }
 
 
-.awards{
+#awards{
        
     margin-top: 4%;
         margin-bottom: 2%;
@@ -131,7 +170,7 @@ h3{
     letter-spacing: 1px; 
     color: #edd6b3;
     background-color:black;    
-    margin-left: 30%;
+   text-align: center;
    
     
 }
@@ -218,7 +257,7 @@ p{
 a{ 
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size:1.5vw;
    
 
 }
@@ -283,7 +322,7 @@ header {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%); 
-    font-size: 80px;
+    font-size:5.5vw;
     color: #840705;
     font-family: "helvetia";
     
@@ -406,6 +445,13 @@ hr.line {
   border-radius: 0px;
 }
 
+hr.linegallery {
+  border: 7px solid white;
+  border-radius: 0px;
+margin-top: 5%;
+
+}
+
 
 
 /*--------------------------------- main *------------------------------------*/
@@ -434,6 +480,109 @@ mainv{
 
 
 
+/*--------------------------------- carasoul *------------------------------------*/
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}+
+
+
+/*--------------------------------- carasoul *----------------0--------------------*/
 
 /*--------------------------------- footer *------------------------------------*/
 
